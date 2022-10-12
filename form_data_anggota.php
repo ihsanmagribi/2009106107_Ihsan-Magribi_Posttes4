@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Form Data Anggota</title>
     <link rel="icon" href="https://ipmboyolali.com/uploads/cover_blog/lambang_ipm.jpg">
 </head>
 <body>
 <div class="form">  
-    <p class="asa" ></p>
+    <p class="judul" >FORM DATA ANGGOTA PW IPM KALTIM</p>
     <form action="tampil_data.php" method="POST">
         <table border = "0">
             <tr>
                 <td>Nama</td>
-                <td><input type="text"  name="nama" maxlength="50" placeholder="Nama Anda"  required></td>
+                <td><input type="text"  name="Nama" maxlength="50" placeholder="Nama Anda"  required></td>
             </tr>
             <tr>
                 <td>Tanggal Lahir</td>
                 <td><input type="date" id="date-picker" name="Tanggal Lahir" required ></td>       
             </tr>
             <tr>
+                <td>Nomor HP</td>
+                <td><input type="number"  name="Nomor HP" maxlength="50" placeholder="Nomor HP"  required></td>
+            </tr>
+            <tr>
                 <td>Jabatan</td>
-                <td><input type="text"  name="jabatan" maxlength="50" placeholder="Jabatan Sekarang"  required></td>
+                <td><input type="text"  name="Jabatan" maxlength="50" placeholder="Jabatan Sekarang"  required></td>
             </tr>
             <tr>
                 <td>Asal Pimpinan Daerah</td>
@@ -60,3 +65,5 @@
     </form>
 </body>
 </html>
+<style>
+    
