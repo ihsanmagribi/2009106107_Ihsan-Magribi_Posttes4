@@ -36,7 +36,7 @@
                 </tr>
                 <tr>
                     <td>Nomor HP</td>
-                    <td><input id="isian-telpon" type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"></td>
+                    <td><input id="isian-telpon" type="tel" name="NomorHP" placeholder="Nomor HP"></td>
                 </tr>
                 <tr>
                     <td>Jabatan</td>

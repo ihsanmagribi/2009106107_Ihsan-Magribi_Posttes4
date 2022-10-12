@@ -22,9 +22,9 @@
                 </ul>
             </div>
     </div>
-    <p class="judul" >DATA ANDA BERHASIL DISIMPAN</p>
     <?php if(isset($_POST['simpan'])){?>
         <div class="form">
+        <p class="judul" >DATA ANDA BERHASIL DISIMPAN</p>
        <table>
        <tr>
             <td><h3>Nama</h3</td>
@@ -66,37 +66,4 @@
        </div>
     <?php } ?>
 </body>
-<style>
-
-h1{
-	text-align: center;
-}
-
-.form{
- 	width: 1106px;
- 	background-color: #fff;
- 	position: fixed;
- 	margin-left: 142px;
-	text-align: center;
-	top: 122px;
-	color: black;
-}
-
-table{
-    margin-left: 20px;
-    margin-top: 20px;
-    font-size: 14px;
-    width: 759px;
-    margin: 2% auto;
-
-}
-table td{
-    padding: 5px 5px;
-}
-
-th, td {
-  border-bottom: 1px solid #DDD;
-}
-
-</style>
 </html>
