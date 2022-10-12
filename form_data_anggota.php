@@ -32,11 +32,11 @@
                 </tr>
                 <tr>
                     <td>Tanggal Lahir</td>
-                    <td><input type="date" id="date-picker" name="Tanggal Lahir" required ></td>       
+                    <td><input type="date" id="date-picker" name="TanggalLahir" required ></td>       
                 </tr>
                 <tr>
                     <td>Nomor HP</td>
-                    <td><input type="number"  name="Nomor HP" maxlength="50" placeholder="Nomor HP"  required></td>
+                    <td><input type="tel"  name="NomorHP" maxlength="50" placeholder="Nomor HP"  required></td>
                 </tr>
                 <tr>
                     <td>Jabatan</td>
@@ -45,7 +45,7 @@
                 <tr>
                     <td>Asal Pimpinan Daerah</td>
                     <td>
-                    <select class="choose" name="choose">
+                    <select class="choose" name="Asal">
                         <option value="Samarinda">Samarinda</option>
                         <option value="Balikpapan">Balikpapan</option>
                         <option value="Penajam Paser Utara">Penajam Paser Utara</option>
@@ -60,7 +60,7 @@
                 <tr>
                     <td>Pengkaderan Terakhir</td>
                     <td>
-                    <select class="choose" name="choose">
+                    <select class="choose" name="TM">
                         <option value="TM1">TM1</option>
                         <option value="TM2">TM2</option>
                         <option value="TM3">TM3</option>
