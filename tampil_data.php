@@ -29,37 +29,37 @@
        <tr>
             <td><h3>Nama</h3</td>
             <td>
-                <h3 id="nama" class="jarak-atas"><?php echo $_POST['Nama'] ?></h3>
+                <h3 id="nama" class="data"><?php echo $_POST['Nama'] ?></h3>
             </td>
         </tr>
         <tr>
             <td><h3>Tanggal Lahir</h3></td>
             <td>
-                <h3 id="TanggalLahir" class="jarak-atas"><?php echo $_POST['TanggalLahir'] ?></h3>
+                <h3 id="TanggalLahir" class="data"><?php echo $_POST['TanggalLahir'] ?></h3>
             </td>
         </tr>
         <tr>
             <td><h3>Nomor HP</h3></td>
             <td>
-                <h3 id="NomorHP" class="jarak-atas"><?php echo $_POST['NomorHP'] ?></h3>
+                <h3 id="NomorHP" class="data"><?php echo $_POST['NomorHP'] ?></h3>
             </td>
         </tr>
         <tr>
             <td><h3>Jabatan</h3></td>
             <td>
-                <h3 id="Jabatan" class="jarak-atas"><?php echo $_POST['Jabatan'] ?></h3>
+                <h3 id="Jabatan" class="data"><?php echo $_POST['Jabatan'] ?></h3>
             </td>
         </tr>
         <tr>
             <td><h3>Asal Pimpinan Daerah</h3></td>
             <td>
-                <h3 id="Asal" class="jarak-atas"><?php echo $_POST['Asal'] ?></h3>
+                <h3 id="Asal" class="data"><?php echo $_POST['Asal'] ?></h3>
             </td>
         </tr>
         <tr>
             <td><h3>Pengkaderan Terakhir</h3></td>
             <td>
-                <h3 id="TM" class="jarak-atas"><?php echo $_POST['TM'] ?></h3>
+                <h3 id="TM" class="data"><?php echo $_POST['TM'] ?></h3>
             </td>
         </tr>
        </table>
